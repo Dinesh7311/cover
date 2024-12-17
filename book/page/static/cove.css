@@ -1,0 +1,52 @@
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-cover {
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.book-photo img {
+    width: 100%;
+    height: auto;
+    border: 3px solid #333;
+    border-radius: 5px;
+}
+
+.book-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0 10px;
+}
+
+.book-subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.author {
+    font-size: 16px;
+    font-style: italic;
+    color: #777;
+    margin-top: 10px;
+}
